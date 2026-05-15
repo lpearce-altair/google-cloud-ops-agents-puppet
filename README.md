@@ -25,11 +25,6 @@ Puppet module for [Google Cloud Operations agents](https://cloud.google.com/stac
 
 https://cloud.google.com/stackdriver/docs/solutions/agents/ops-agent#access
 
-## Prerequisite Modules
-
-The following modules must be available on the Puppet server:
-- [lwf-remote_file](https://forge.puppet.com/modules/lwf/remote_file)
-
 ## Install Module
 
 ### Install Module from Source

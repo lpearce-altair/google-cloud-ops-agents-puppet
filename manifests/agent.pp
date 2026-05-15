@@ -120,8 +120,7 @@ define google_cloud_ops::agent (
         mode   => '0755'
     }
 
-    # puppet module install lwf-remote_file --version 1.1.3
-    remote_file { $script_path:
+    file { $script_path:
       ensure => present,
       source => $script_source,
       mode   => '0700',
