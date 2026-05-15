@@ -35,6 +35,14 @@ To build the module from source:
 - Install: `puppet module install ops-cloud_ops-0.1.0.tar.gz`
 - Verify: `puppet module list`
 
+### Install Module from Puppetfile
+
+Add to your Puppetfile:
+
+    mod 'google_cloud_ops',
+      :git => 'https://github.com/lpearce-altair/google-cloud-ops-agents-puppet.git',
+      :branch => 'master'
+
 ## Usage
 
 | Parameter               | Default       | Description                                                       |
